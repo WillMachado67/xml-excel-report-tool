@@ -9,8 +9,8 @@ class Config:
     def __init__(self):
         """Inicializa a configuração com valores padrão e carrega do arquivo"""
         # Diretórios base
-        self.ROOT_DIR = Path(__file__).parent.parent.resolve()
-        self.CONFIG_FILE = self.ROOT_DIR.parent / "config.json"
+        self.ROOT_DIR = Path(__file__).parent.resolve()
+        self.CONFIG_FILE = self.ROOT_DIR / "config.json"
         
         # Configurações padrão
         self.DEFAULT_CONFIG = {
