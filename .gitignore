@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Local development settings
+.env
+.env.local
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Logs
+*.log
+
+# Arquivos de ambiente local
+.env
+.env.local
+
+# Arquivos de configuração local
+config.json
+
+# Diretórios de saída de dados processados
+planilhas/
+output/
+logs/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*~
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de IDEs e editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de log
+*.log
+
+# Arquivos XML de exemplo (podem conter dados sensíveis)
+*.xml
+
+# Arquivos Excel (podem conter dados sensíveis)
+*.xlsx
+*.xls
+
+# Arquivos de cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Arquivos específicos do Poetry
+.python-version
